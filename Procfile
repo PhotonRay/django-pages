@@ -1,1 +1,1 @@
-worker: python manage.py runserver
+web: gunicorn django_project.wsgi --log-file -
